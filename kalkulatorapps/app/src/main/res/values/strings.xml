@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kalkulatorapps</string>
+    <string name="icon_left">Ikon kiri</string>
+    <string name="icon_right">Ikon kanan</string>
+</resources>
