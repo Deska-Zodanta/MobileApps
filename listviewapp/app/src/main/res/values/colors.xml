@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><color name="colorPrimary">#CA7842</color>
+    <color name="colorPrimaryDark">#01573c</color>
+    <color name="colorAccent">#f69f1a</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#73818f</color>
+
+    <!-- Bootstrap default color -->
+    <color name="primary">#007bff</color>
+    <color name="primaryActive">#0062cc</color>
+    <color name="primaryDisabled">#005cbf</color>
+    <color name="danger">#dc3545</color>
+    <color name="dangerActive">#bd2130</color>
+    <color name="dangerDisabled">#b21f2d</color>
+    <color name="success">#28a745</color>
+    <color name="successActive">#1e7e34</color>
+    <color name="successDisabled">#1c7430</color>
+    <color name="warning">#ffc107</color>
+    <color name="warningActive">#d39e00</color>
+    <color name="warningDisabled">#c69500</color>
+    <color name="info">#17a2b8</color>
+    <color name="infoActive">#117a8b</color>
+    <color name="infoDisabled">#10707f</color>
+</resources>
