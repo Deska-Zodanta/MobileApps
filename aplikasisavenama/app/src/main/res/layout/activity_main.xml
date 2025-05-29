@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul catatan" />
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tulis isi catatan di sini"
+            android:minHeight="100dp"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/buttonSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Catatan"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#183B4E" />
+
+        <TextView
+            android:id="@+id/textJudulLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUDUL"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonBaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baca Catatan"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#183B4E" />
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Catatan"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#183B4E" />
+
+        <Button
+            android:id="@+id/buttonHapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus Catatan"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:backgroundTint="#183B4E" />
+
+        <TextView
+            android:id="@+id/textIsiCatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
