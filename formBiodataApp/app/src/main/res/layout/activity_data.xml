@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Judul -->
+        <TextView
+            android:text="Data Pengguna"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/ivFotoProfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:background="#E0E0E0"
+            android:scaleType="centerCrop"
+            android:contentDescription="Foto Profil Pengguna"/>
+
+        <!-- Nama -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/textViewLabelNama"
+                android:text="Nama:"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewNama"
+                android:text="-"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- Usia -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/textViewLabelUsia"
+                android:text="Usia:"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewUsia"
+                android:text="-"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- Asal Sekolah -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/textViewLabelSekolah"
+                android:text="Asal Sekolah:"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewSekolah"
+                android:text="-"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- Email -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/textViewLabelEmail"
+                android:text="Email:"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:text="-"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- Peminatan -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/textViewLabelPeminatan"
+                android:text="Peminatan:"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewPeminatan"
+                android:text="-"
+                android:textSize="18sp"
+                android:textColor="#555555"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!-- Tombol Kembali dan Edit -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnKembali"
+                android:text="Kembali ke Halaman Utama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#102C57"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:text="Edit Data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#C80036"
+                android:textColor="#22092C"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

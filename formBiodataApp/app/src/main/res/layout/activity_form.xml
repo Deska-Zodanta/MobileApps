@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ImageView untuk foto profil -->
+        <ImageView
+            android:id="@+id/ivFotoProfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:background="#E0E0E0"
+            android:contentDescription="Foto Profil Pengguna"/>
+
+        <!-- Tombol Pilih Foto -->
+        <Button
+            android:id="@+id/btnPilihFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Foto"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Input lainnya -->
+        <EditText
+            android:id="@+id/editTextNama"
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextUsia"
+            android:hint="Usia"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextSekolah"
+            android:hint="Asal Sekolah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:hint="Email"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerPeminatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:text="Simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnLihatData"
+            android:text="Lihat Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

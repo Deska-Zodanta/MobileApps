@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="70dp" /> <!-- Atur tinggi sesuai kebutuhan -->
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/tiflogo"
+        android:contentDescription="Foto Profil"/>
+
+    <TextView
+        android:text="SELAMAT DATANG"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:text="Daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnLihatData"
+        android:text="Lihat Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

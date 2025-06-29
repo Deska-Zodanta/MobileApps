@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- View kosong untuk push konten ke tengah -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <!-- LinearLayout untuk 2 logo berdampingan -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/logoTIF"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@drawable/tiflogo"
+            android:contentDescription="Logo TIF"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="1dp" />
+
+        <ImageView
+            android:id="@+id/logoUntidar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logountidar"
+            android:contentDescription="Logo Untidar"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <!-- Tombol Kembali -->
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Halaman Utama"
+        android:textSize="16sp"
+        android:padding="12dp"/>
+
+    <!-- Tombol Lihat Data -->
+    <Button
+        android:id="@+id/btnLihatData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data Saya"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"/>
+
+    <!-- View kosong untuk push konten ke tengah -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+</LinearLayout>
