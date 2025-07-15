@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- View kosong untuk push konten ke tengah -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/tiflogo"
+        android:layout_gravity="center_horizontal"
+
+        android:contentDescription="Foto Profil"/>
+    <!-- Tombol Lihat Data -->
+    <Button
+        android:id="@+id/btnLihatData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data Saya"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnInformasia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+</LinearLayout>

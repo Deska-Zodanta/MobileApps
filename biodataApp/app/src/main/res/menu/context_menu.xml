@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_lihat_data"
+        android:title="Lihat Data" />
+    <item
+        android:id="@+id/menu_update_data"
+        android:title="Update Data" />
+    <item
+        android:id="@+id/menu_hapus_data"
+        android:title="Hapus Data" />
+</menu>
